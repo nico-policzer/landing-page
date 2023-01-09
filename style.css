@@ -122,9 +122,19 @@ button {
     padding: 50px 15%;
 }
 
+.upper-content > * {
+    flex: 1;
+}
+.upper-content-left {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
 .upper-content-left > h1 {
     font-size: 48px;
     font-weight:bolder;
+    margin: 0px;
 }
 
 .upper-content-left > div {
@@ -133,4 +143,7 @@ button {
 }
 .upper-content-left > button {
     border: none;
+    align-self: flex-start;
+    margin-left: 0px;
+
 }
