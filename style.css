@@ -11,6 +11,13 @@ a {
     color: inherit;
 }
 
+button {
+    cursor: pointer;
+}
+
+img {
+    border-radius: 30px;
+}
 .content {
     display: flex;
     flex: 1;
